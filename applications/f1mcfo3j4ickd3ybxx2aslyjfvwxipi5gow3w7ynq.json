@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1mcfo3j4ickd3ybxx2aslyjfvwxipi5gow3w7ynq",
+  "Issue Number": "4",
+  "Client": {
+    "Name": "zhaijiaban",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.zhaijiaban.cn/cms/list-22.html",
+    "Social Media": "https://www.zhaijiaban.cn/cms/list-22.html",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Beijing Zhaijiaban specializes in art examination training and animation postgraduate entrance examination preparation for majors such as Animation, Comics, Game Design, Digital Media, and Comprehensive Design. With 24 years of dedicated teaching experience, we have independently developed a scientific art examination teaching system for animation. Tailoring our approach to each student's foundation, we guide them based on their interests, helping them establish their unique artistic style and ensuring a smooth learning journey.  \n\nZhaijiaban groups students by province for specialized mock examination training, truly providing province-specific practical preparation to ensure outstanding performance in provincial unified examinations.  \n\nOur teaching team brings together industry experts, all graduates of prestigious institutions like the Beijing Film Academy, Central Academy of Fine Arts, and Communication University of China. With professional experience in intensive animation entrance exam coaching, we have nurtured 64 top scorers over the past 23 years, with over a thousand students admitted to the Beijing Film Academy and Communication University of China.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "https://space.bilibili.com/180790477",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "1. Data Chunking: The original file is split into fixed-size chunks (typically 32GB or 64GB) for further processing.\n\n2. Generating CAR Files: The data chunks are packaged into CAR (Content-Addressable Archive) format to ensure verifiable and uniquely addressable content.\n\n3. Computing CommP and Piece CID: A CommP (Commitment Proof) and Content Identifier (CID) are generated for storage proofs and retrieval.\n\n4. Submitting Storage Deals: The CAR file is matched with a Storage Provider on the Filecoin network, and a storage deal is finalized.\n\n5. Sealing & Verification: The Storage Provider performs the sealing process, storing the data in a sector while generating Proof of Replication (PoRep) and Proof of Spacetime (PoSt) to ensure secure, long-term storage.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://space.bilibili.com/180790477",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03340635 \nf03601993 \nf03601967 \nf03620433 \nf03620434 \nf03620442 \nf03620441 \nf03620447 \nf03620446",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-01 19:18:03.078565710 UTC",
+    "Validated By": "Neilneil333",
+    "Active": true,
+    "Updated At": "2025-08-01 19:18:03.078560064 UTC",
+    "Active Request ID": "ed627d7b-3b4a-4d3e-9f72-a067c4d23c10",
+    "On Chain Address": "f1mcfo3j4ickd3ybxx2aslyjfvwxipi5gow3w7ynq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ed627d7b-3b4a-4d3e-9f72-a067c4d23c10",
+      "Request Type": "First",
+      "Created At": "2025-08-01 19:16:08.002458093 UTC",
+      "Updated At": "2025-08-01 19:16:08.002459336 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "Neilneil333",
+          "Signing Address": "f1gdq3yqyjyyyxdqsrtf2oefxxt5ifou72hgs56dq",
+          "Created At": "2025-08-01 19:18:00.321000000 UTC",
+          "Message CID": "bafy2bzaced7rj7zczekppc3b63uwnatdbwrcayrrgjvwpihzokxeytzh36ntm"
+        }
+      ]
+    }
+  ]
+}
