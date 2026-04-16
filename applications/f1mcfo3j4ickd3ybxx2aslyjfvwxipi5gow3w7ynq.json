@@ -35,11 +35,11 @@
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-04-16 07:00:01.421194681 UTC",
+    "State": "Granted",
+    "Validated At": "2026-04-16 07:01:40.634224760 UTC",
     "Validated By": "Neilneil333",
     "Active": true,
-    "Updated At": "2026-04-16 07:00:01.421198600 UTC",
+    "Updated At": "2026-04-16 07:01:40.634220643 UTC",
     "Active Request ID": "71bd04d2-77f9-4232-9db3-7404818c4bb6",
     "On Chain Address": "f1mcfo3j4ickd3ybxx2aslyjfvwxipi5gow3w7ynq",
     "Multisig Address": "false",
@@ -99,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2026-04-16 07:00:01.421205723 UTC",
       "Updated At": "2026-04-16 07:00:01.421206615 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Neilneil333",
+          "Signing Address": "f1gdq3yqyjyyyxdqsrtf2oefxxt5ifou72hgs56dq",
+          "Created At": "2026-04-16 07:01:37.086000000 UTC",
+          "Message CID": "bafy2bzaced7boac4aqvlcbi654kge6kmy5kw2kw5zuccethe3cybhg6m2cz44"
+        }
+      ]
     }
   ]
 }
